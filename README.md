@@ -18,3 +18,6 @@ In the directory you want to create the RN project
     $ npm install --save lodash
 
 Now copy the contents of the rn-redux-starter directory into the project directory and get to coding in the `./src` directory!
+
+### Important!
+*Make sure to change the project name in the index.<platform>.js files!*
