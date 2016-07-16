@@ -1,0 +1,48 @@
+{
+  "rules": {
+    "curly": 2,
+    "eqeqeq": [ 2, "smart" ],
+    "indent": [ 2, 2 ],
+    "quotes": [ 2, "single", "avoid-escape"],
+    "jsx-quotes": [ 2, "prefer-double" ],
+    "linebreak-style": [ 2, "unix" ],
+    "no-unused-vars": 0,
+    "no-var": 2,
+    "new-cap": [2, {"capIsNew": false}],
+    "no-empty-function": 2,
+    "brace-style": [2, "1tbs"],
+    "space-before-blocks": 2,
+    "prefer-arrow-callback": 2,
+    "prefer-const": 2,
+    "react/jsx-closing-bracket-location": [ 1, "tag-aligned"],
+    "react/jsx-curly-spacing": [ 2, "never" ],
+    "react/jsx-indent": [ 2, 2 ],
+    "react/jsx-indent-props": [ 2, 2 ],
+    "react/jsx-no-undef": 2,
+    "react/jsx-pascal-case": 2,
+    "react/no-direct-mutation-state": 2,
+    "react/self-closing-comp": 2,
+    "semi": [ 2, "always" ],
+    "space-infix-ops": 2
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "extends": "eslint:recommended",
+  "ecmaFeatures": {
+    "jsx": true,
+    "blockBindings": true,
+    "experimentalObjectRestSpread": true
+  },
+  "plugins": [ "react" ],
+  "parser": "babel-eslint",
+  "globals": {
+    "$": true,
+    "jQuery": true,
+    "Freewall": true,
+    "FB": true,
+    "soundManager": true
+  }
+}
