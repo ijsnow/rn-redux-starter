@@ -1,3 +1,7 @@
+# React Native Redux Starter
+Use the code in this repo to quickly set up a project with react native and redux.
+This project contains the very basic boilerplate and not much more so its very flexible!
+
 # Get started
 
 In the directory you want to create the RN project
@@ -13,4 +17,4 @@ In the directory you want to create the RN project
     $ # (optional) I use lodash in every project nowadays so I always do this before I start :)
     $ npm install --save lodash
 
-Now copy the contents of the rn-redux-starter directory into the project directory and the project will be set up!
+Now copy the contents of the rn-redux-starter directory into the project directory and get to coding in the `./src` directory!
